@@ -59,16 +59,15 @@ const Hero = () => {
             }}
           >
             <Themed.p sx={{ fontSize: [3, null, null, null, 4] }}>
-              Demari I grow vegetables, flowers and community. I build remarkable
-              online experiences focused on{" "}
+              My name is Demari and I am a front-end developer. My main focus is building websites with a ridiculous amount of {" "}
               {hasMounted ? (
                 <Fragment>
                   <RoughNotation type="underline" show={true} strokeWidth={2}>
-                    connection
+                    speed
                   </RoughNotation>
                   <span> and </span>
                   <RoughNotation type="underline" show={true} strokeWidth={2}>
-                    belonging.
+                    scale power.
                   </RoughNotation>
                 </Fragment>
               ) : (
@@ -87,7 +86,7 @@ const Hero = () => {
                 },
               }}
             >
-              Grow With Me
+              Work With Me
             </Button>
           </div>
         </div>
